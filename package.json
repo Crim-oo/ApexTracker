@@ -1,0 +1,24 @@
+{
+    "name": "apextracker",
+    "version": "1.0.0",
+    "description": "Track the stats for Apex Legends",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "author": "Nahi Abdelkrim",
+    "license": "MIT",
+    "dependencies": {
+        "concurrently": "^6.5.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "morgan": "^1.10.0",
+        "node-fetch": "^3.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
