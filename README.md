@@ -11,42 +11,25 @@ An web application that track a player's stats in the video game 'Apex Legends'.
 1. Clone the repo
 
     ```bash
-    git clone https://github.com/Andrei0872/invoice-app.git
+    git clone https://github.com/Crim-oo/ApexTracker.git
     ```
 
-2. Set up the `client`
+2. Set up the `client/server`
 
     Install the required dependencies:
 
     ```bash
-    cd client/ && npm i && cd -
+    npm i 
+    ```
+     ```bash
+    cd client/ && npm i 
     ```
     
-    Set the variables in the `.env` file:
+    Set the variables in the `config.env` file:
 
     ```bash
-    cp client/.env.example client/.env
+    TRAKCER_API_KEY = Your Api Key here. Check out https://tracker.gg/developers for more informations.
     ```
-
-    The `VUE_APP_CRONJOB_START_DATE` variable takes in a number which represents a date in milliseconds. If you set it to `NULL`, the *demo* mode is deactivated. Even if activated, it does nothing except from logging out the user after some certain time. That's because this feature is synchronized with a *cron job* that runs on the server. You can read more about it here.
-    <!-- TODO: PROVIDE LINK -->
-
+    
 3. Set up the `server`
 
-    Install the required dependencies:
-
-    ```bash
-    cd client/ && npm i && cd -
-    ```
-
-    Set the variables in the `.env` file:
-
-    ```bash
-    cp server/.env.example server/.env
-    ```
-
-    Create a key that will be used for creating **access tokens**:
-
-    ```bash
-    openssl rand -base64 32 > ./server/.key
-    ```
