@@ -39,7 +39,6 @@ This is a web application allowing to track the stats of a player according to d
     npm run dev 
     ```
  # Screenshots
-<img src='' />
-<img src='' />
-<img src='' />
+<img src='/images/Search.png' />
+<img src='/images/Profile.png' />
 
