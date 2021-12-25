@@ -1,5 +1,5 @@
 # Apex Legends Stats Tracker
-An web application that track a player's stats in the video game 'Apex Legends'. To develop this app, I used React for the front-end and Express/Node.js for the backend. For the backend, I created an API that recieves GET requests for a specified player (ex: /api/v1/profile/:platform/:gamertag) and then sends a GET requests to the [Tracker Network API](https://tracker.gg/developers) given the parameters from the request sent to my API. The Tracker Network then responds with a JSON response containing the player's stats. This JSON response was then parsed and displayed on the front-end.
+This is a web application allowing to track the stats of a player according to different parameters. In order to make this possible, I used an API from the site https://tracker.gg/ and I built a backend to allow the user to receive the desired information. I used React for the front-end and Express/Node.js for the backend.
 
 ## Technologies Used
 - React
@@ -38,4 +38,8 @@ An web application that track a player's stats in the video game 'Apex Legends'.
     ```bash
     npm run dev 
     ```
+ # Screenshots
+<img src='' />
+<img src='' />
+<img src='' />
 
