@@ -31,5 +31,11 @@ An web application that track a player's stats in the video game 'Apex Legends'.
     TRAKCER_API_KEY = Your Api Key here. Check out https://tracker.gg/developers for more informations.
     ```
     
-3. Set up the `server`
+3. Run the `application`
+    
+    Enter this command on the root of the project.
+    
+    ```bash
+    npm run dev 
+    ```
 
